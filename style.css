@@ -1,1 +1,11 @@
-
+:root{
+    --preto-cinza: #393535;
+    --azul-tiffany: #3AD3CA;
+    --branco: #FFFFFF;
+}
+.cabecalho{
+    background-color: var(--preto-cinza);
+}
+.logo{
+    width: 100;
+}
