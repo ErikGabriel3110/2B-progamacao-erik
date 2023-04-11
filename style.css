@@ -5,7 +5,16 @@
 }
 .cabecalho{
     background-color: var(--preto-cinza);
+    display: flex; justify-content: space-between;
 }
 .logo{
     width: 100;
+    margin: 10px;
+}
+.menu-item{
+    display: inline-block;
+    padding: 5px;
+    margin-top: 80px;
+    color: var(--branco);
+    font-size: 35px;
 }
