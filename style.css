@@ -3,6 +3,11 @@
     --azul-tiffany: #3AD3CA;
     --branco: #FFFFFF;
 }
+
+*{
+    margin: 0;
+    padding: 0;    ;
+}
 .cabecalho{
     background-color: var(--preto-cinza);
     display: flex; justify-content: space-between;
@@ -18,3 +23,13 @@
     color: var(--branco);
     font-size: 35px;
 }
+.principal{
+    background-color: var(--azul-tiffany)
+    
+}
+.principal__titulo{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.principal__texto{
+    font-size: 30px;}
