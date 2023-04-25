@@ -18,18 +18,32 @@
 }
 .menu-item{
     display: inline-block;
-    padding: 5px;
+    padding: 10px;
     margin-top: 80px;
     color: var(--branco);
     font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .principal{
-    background-color: var(--azul-tiffany)
-    
+    background-color: var(--preto-cinza);
+    background-image:linear-gradient(var(--branco)) ;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
 }
 .principal__titulo{
+    padding-left: 100px;
+    color: var(--branco);
     font-size: 35px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .principal__texto{
-    font-size: 30px;}
+    padding: 10PX;
+    color: var(--branco);
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.principal__imagem{
+    width:40%;
+    padding: 150px;
+}
